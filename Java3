@@ -1,0 +1,15 @@
+#Make a lightbulb that turns on and off when you click the button
+<html>
+<body>
+
+<h2>Make a lightbulb that turns on and off when you click the button</h2>
+
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+</body>
+</html>
