@@ -1,0 +1,12 @@
+#Make a button that hides an element on the page
+<html>
+<body>
+
+<h2>I am trying to hide something</h2>
+
+<p id="demo">Java can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+
+</body>
+</html> 
